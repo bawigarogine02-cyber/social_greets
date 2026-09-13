@@ -22,19 +22,19 @@
       "static/css/935de32d96d9125a.css",
       "static/chunks/app/layout-5f2252adf74a492b.js"
     ],
-    "/api/uploads/message/route": [
-      "static/chunks/webpack-615a5b9c327fc4ec.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-37e0f0325134c4d7.js",
-      "static/chunks/main-app-05df3935744b9cc9.js",
-      "static/chunks/app/api/uploads/message/route-e1a13b4607172a88.js"
-    ],
     "/api/db/route": [
       "static/chunks/webpack-615a5b9c327fc4ec.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
       "static/chunks/255-37e0f0325134c4d7.js",
       "static/chunks/main-app-05df3935744b9cc9.js",
       "static/chunks/app/api/db/route-e1a13b4607172a88.js"
+    ],
+    "/api/uploads/message/route": [
+      "static/chunks/webpack-615a5b9c327fc4ec.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-37e0f0325134c4d7.js",
+      "static/chunks/main-app-05df3935744b9cc9.js",
+      "static/chunks/app/api/uploads/message/route-e1a13b4607172a88.js"
     ],
     "/api/uploads/avatar/route": [
       "static/chunks/webpack-615a5b9c327fc4ec.js",

@@ -19,5 +19,6 @@ Suggested import order:
 4. `004_group_profiles.sql`
 5. `005_chat_media_controls.sql`
 6. `006_password_requests.sql`
+7. `007_foreign_keys.sql`
 
 Restart the Next.js server after changing `.env.local`. The browser-local fallback remains available when `NEXT_PUBLIC_DB_ENABLED=false`.

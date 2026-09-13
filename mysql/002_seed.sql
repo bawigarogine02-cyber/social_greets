@@ -2,12 +2,7 @@ USE social_greetings;
 
 -- Admin profile seed
 INSERT INTO profiles (id, username, display, password_hash, role, ban_status, ban_reason, ban_until, created_at)
-VALUES ('u-admin', 'riogen02', 'Admin', 'replace-with-hashed-password', 'admin', 'active', NULL, NULL, NOW())
-ON DUPLICATE KEY UPDATE display = VALUES(display), password_hash = VALUES(password_hash), role = VALUES(role);
-
--- Demo user
-INSERT INTO profiles (id, username, display, password_hash, role, ban_status, ban_reason, ban_until, created_at)
-VALUES ('u-demo', 'demo', 'Demo Friend', 'replace-with-hashed-password', 'user', 'active', NULL, NULL, NOW())
+VALUES ('u-admin', 'riogen02', 'Admin', '735dc0cbe264914cd718ae17e7e8d50220606d366736c5969585acddff35bf7b', 'admin', 'active', NULL, NULL, NOW())
 ON DUPLICATE KEY UPDATE display = VALUES(display), password_hash = VALUES(password_hash), role = VALUES(role);
 
 INSERT INTO greetings (id, from_name, from_id, to_username, message, type, created_at)

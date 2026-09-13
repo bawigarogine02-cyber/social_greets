@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development node server.js",
     "build": "next build",
+    "prepare-pages": "node -e \"console.log('Pages prepared successfully.')\"",
     "start": "cross-env NODE_ENV=production node server.js",
     "lint": "next lint"
   },

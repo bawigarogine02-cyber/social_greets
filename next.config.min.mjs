@@ -1,0 +1,1 @@
+const nextConfig={reactStrictMode:!0,rewrites:async()=>[{source:"/((?!_next|api|favicon.ico|.*\\..*).*)",destination:"/"}]};export default nextConfig;

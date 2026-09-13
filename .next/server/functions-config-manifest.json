@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/uploads/message": {},
+    "/api/db": {},
+    "/api/uploads/avatar": {}
+  }
+}

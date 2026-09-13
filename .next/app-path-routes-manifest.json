@@ -1,7 +1,7 @@
 {
   "/_not-found/page": "/_not-found",
-  "/api/uploads/avatar/route": "/api/uploads/avatar",
   "/api/uploads/message/route": "/api/uploads/message",
   "/api/db/route": "/api/db",
+  "/api/uploads/avatar/route": "/api/uploads/avatar",
   "/page": "/"
 }

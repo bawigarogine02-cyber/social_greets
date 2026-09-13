@@ -1,8 +1,8 @@
 {
   "version": 1,
   "functions": {
-    "/api/uploads/message": {},
     "/api/uploads/avatar": {},
+    "/api/uploads/message": {},
     "/api/db": {}
   }
 }
